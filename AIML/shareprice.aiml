@@ -1,0 +1,26 @@
+<aiml>
+    <category>
+        <pattern>SHARE PRICE OF *</pattern>
+        <template>SP<star/></template>
+    </category>
+    <category>
+        <pattern>WHAT IS SHARE PRICE OF *</pattern>
+        <template><srai>SHARE PRICE OF <star/></srai></template>
+    </category>
+    <category>
+        <pattern>WHAT IS THE SHARE PRICE OF *</pattern>
+        <template><srai>SHARE PRICE OF <star/></srai></template>
+    </category>
+    <category>
+        <pattern>GET ME SHARE PRICE OF *</pattern>
+        <template><srai>SHARE PRICE OF <star/></srai></template>
+    </category>
+    <category>
+        <pattern>CAN YOU GET ME SHARE PRICE OF *</pattern>
+        <template><srai>SHARE PRICE OF <star/></srai></template>
+    </category>
+    <category>
+        <pattern>I WANT SHARE PRICE OF *</pattern>
+        <template><srai>SHARE PRICE OF <star/></srai></template>
+    </category>
+</aiml>
